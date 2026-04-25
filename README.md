@@ -27,7 +27,7 @@ FastAPI backend for the Soull application.
 
 4. Run the development server:
    ```bash
-   uv run uvicorn app.main:app --reload
+   uvicorn app.main:app --reload
    ```
 
 ## API Documentation

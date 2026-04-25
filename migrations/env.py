@@ -18,7 +18,10 @@ if config.config_file_name is not None:
 # add your model's MetaData object here
 # for 'autogenerate' support
 from app.models.base import Base
-from app.models.user import User  # Import models here
+from app.apps.users.models import User
+from app.apps.matches.models import Like, Match
+from app.apps.chats.models import Message
+
 target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,
