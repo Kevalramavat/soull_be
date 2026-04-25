@@ -11,3 +11,6 @@ wheels/
 
 # Project requirements
 project_requirements/
+
+# Environment variables
+.env
